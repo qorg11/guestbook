@@ -1,0 +1,58 @@
+.gusano {
+    border-style:solid;
+    border-color:red;
+    
+}
+
+td,th,p,h1,h2,h3,h4,strike,ul,li {
+    color:white;
+}
+h1 {
+    margin:5px;
+}
+.header {
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    left:0px;
+    right:0px;
+    background-color:#383838;
+    border-color:#ff0000;
+    border-bottom-style:outset;
+    width:auto;
+
+
+}
+.gusano {
+width:300;
+}
+body {
+    margin-bottom: 125px;
+    margin:0px;
+    background-color:black;
+}
+
+.header {
+    position:relative;
+
+}
+.menu  {
+    position:absolute;
+    bottom: 0;
+    left:100px;
+}
+a {
+    text-decoration:none;
+    color:red;
+    margin:5px;
+}
+a:hover{
+
+    color:blue;
+
+}
+table, th, td {
+    border: 1px solid red;
+ 
+   margin:5px;
+}

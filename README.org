@@ -1,0 +1,18 @@
+* qorg11's guestbook
+
+this requires a CGI server and perl
+
+the required database have to have the following scheme:
+
+#+BEGIN_SRC sql
+  CREATE TABLE guestbook (
+  ID INTEGER PRIMARY KEY,
+  NAME TEXT NOT NULL,
+  EMAIL TEXT NOT NULL,
+  COMMENT TEXT,
+  DATE TEXT NOT NULL,
+  COUNTRY TEXT NOT NULL
+  );
+#+END_SRC
+
+that should be it
