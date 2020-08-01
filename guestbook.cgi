@@ -8,12 +8,6 @@ use utf8::all;
 use Encode;
 print "Content-type: text/html\n\n";
 
-if($ENV{HTTP_HOST} =~ /onion/)
-{
-    print "Sorry, no guestbook for onions";
-    exit;
-}
-
 my $db = SQLite::DB->new('guestbook.db');
 
 $db->connect;
