@@ -66,6 +66,7 @@ for(my $x = $EntriesMax; $x >= $EntriesMin; $x--) {
     $Email =~ s/<[^>]*>//g;
 
     $Comment =~ s/<[^>]*>//g;
+    $Country =~ s/<[^>]*>//g;
     print "<td>".$Name."</td>\n";
     print "<td>".$Email."</td>\n";
     print "<td class='gusano'>".$Comment."</td>\n";
